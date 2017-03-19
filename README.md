@@ -47,6 +47,7 @@ Google's SPDY protocol become the basis for HTTP2 - the next superfast HTTP Vers
 ## What to do to enable HTTP2?
 
 Implementation Listing - [https://http2.github.io/](https://http2.github.io/)
+HTTP2 in detail - [https://kinsta.com/learn/what-is-http2/](https://kinsta.com/learn/what-is-http2/)
 
 1. #### <a href="https://http2.akamai.com/" target="_blank">Akamai</a>: 
 
@@ -62,7 +63,6 @@ Implementation Listing - [https://http2.github.io/](https://http2.github.io/)
 
 5. <a href="https://aws.amazon.com/blogs/aws/new-http2-support-for-cloudfront/" target="_blank">HTTP/2 Support for Amazon CloudFront</a>
 
-6. <a href="https://kinsta.com/learn/what-is-http2/" target="_blank">What is HTTP2?</a>
 
 
 #### How do I debug HTTP/2 if it’s encrypted? 
