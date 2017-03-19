@@ -36,18 +36,18 @@ Google's SPDY protocol become the basis for HTTP2, the next version on HTTP.
 
 ## What to do to enable HTTP2?
 
-    1. #### <a href="https://http2.akamai.com/" target="_blank">Akamai</a>: 
+1. #### <a href="https://http2.akamai.com/" target="_blank">Akamai</a>: 
 
-        Akamai customers can enable it right now with a few clicks without requiring any changes on the origin infrastructure.
+    Akamai customers can enable it right now with a few clicks without requiring any changes on the origin infrastructure.
 
-    2. #### <a href="https://www.iis.net/learn/get-started/whats-new-in-iis-10/http2-on-iis" target="_blank">IIS</a> :
+2. #### <a href="https://www.iis.net/learn/get-started/whats-new-in-iis-10/http2-on-iis" target="_blank">IIS</a> :
 
-        Windows 10 or Windows Server 2016 supports HTTP/2
+    Windows 10 or Windows Server 2016 supports HTTP/2
 
-    3. #### <a href="https://geekflare.com/http2-implementation-apache-nginx/" target="_blank">Apache & Nginx</a>
+3. #### <a href="https://geekflare.com/http2-implementation-apache-nginx/" target="_blank">Apache & Nginx</a>
 
-    4. <a href="https://support.cloudflare.com/hc/en-us/articles/115002816808-How-do-I-enable-HTTP-2-Server-Push-in-WordPress" target="_blank">How do I enable HTTP/2 Server Push in WordPress</a>
+4. <a href="https://support.cloudflare.com/hc/en-us/articles/115002816808-How-do-I-enable-HTTP-2-Server-Push-in-WordPress" target="_blank">How do I enable HTTP/2 Server Push in WordPress</a>
 
-    5. <a href="https://aws.amazon.com/blogs/aws/new-http2-support-for-cloudfront/" target="_blank">HTTP/2 Support for Amazon CloudFront</a>
+5. <a href="https://aws.amazon.com/blogs/aws/new-http2-support-for-cloudfront/" target="_blank">HTTP/2 Support for Amazon CloudFront</a>
 
-    6. <a href="https://kinsta.com/learn/what-is-http2/" target="_blank">What is HTTP2?</a>
+6. <a href="https://kinsta.com/learn/what-is-http2/" target="_blank">What is HTTP2?</a>
