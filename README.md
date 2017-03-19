@@ -1,7 +1,7 @@
 # HTTP2 :: The Fast Web
 
 
-Google's SPDY protocol become the basis for HTTP2, the next version on HTTP.
+Google's SPDY protocol become the basis for HTTP2 - the next superfast HTTP Version.
 
 ## Future of Internet
 
