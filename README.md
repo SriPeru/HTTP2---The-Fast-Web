@@ -24,5 +24,6 @@ Google's SPDY protocol become the basis for HTTP2, the next version on HTTP.
     a) Not mandates HTTPS, but its good for privacy and user protection.
     b) The new protocol does not support things like SSL renegotiation, SSL compression, or any protocol before TLS 1.2 with weak ciphers. So on that level the protocol makes the web a lot safer.
     
-    [HTTP/2 has four huge security vulnerabilities] (https://betanews.com/2016/08/04/http-2-security-vulnerabilities/)
-    [HTTP/2 Will Break Your Security – Here’s How to Fix it] (https://blog.radware.com/security/2015/09/http2-security-fix/)
+
+    [HTTP/2 has four huge security vulnerabilities](https://betanews.com/2016/08/04/http-2-security-vulnerabilities/)
+    [HTTP/2 Will Break Your Security – Here’s How to Fix it](https://blog.radware.com/security/2015/09/http2-security-fix/)
