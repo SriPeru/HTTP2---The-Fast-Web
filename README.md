@@ -42,13 +42,16 @@ Google's SPDY protocol become the basis for HTTP2 - the next superfast HTTP Vers
     <a href="https://blog.radware.com/security/2015/09/http2-security-fix/" target="_blank">HTTP/2 Will Break Your Security – Here’s How to Fix it</a>
 
 
+
 ### Check Browser support: http://caniuse.com/#search=http2
+
+
 
 ## What to do to enable HTTP2?
 
-Implementation Listing - [https://http2.github.io/](https://http2.github.io/)
+    Implementation Listing - [https://http2.github.io/](https://http2.github.io/)
 
-HTTP2 in detail - [https://kinsta.com/learn/what-is-http2/](https://kinsta.com/learn/what-is-http2/)
+    HTTP2 in detail - [https://kinsta.com/learn/what-is-http2/](https://kinsta.com/learn/what-is-http2/)
 
 1. #### <a href="https://http2.akamai.com/" target="_blank">Akamai</a>: 
 
