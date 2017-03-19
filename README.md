@@ -26,4 +26,5 @@ Google's SPDY protocol become the basis for HTTP2, the next version on HTTP.
     
 
     [HTTP/2 has four huge security vulnerabilities](https://betanews.com/2016/08/04/http-2-security-vulnerabilities/)
+    
     [HTTP/2 Will Break Your Security – Here’s How to Fix it](https://blog.radware.com/security/2015/09/http2-security-fix/)
