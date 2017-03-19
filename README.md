@@ -59,5 +59,5 @@ Google's SPDY protocol become the basis for HTTP2, the next version on HTTP.
 
 #### How do I debug HTTP/2 if it’s encrypted? 
 
-    Use <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/Key_Log_Format" target="_blank">NSS keylogging</a> in combination with the Wireshark plugin (included in recent development releases). This works with both Firefox and Chrome.
+Use <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/Key_Log_Format" target="_blank">NSS keylogging</a> in combination with the Wireshark plugin (included in recent development releases). This works with both Firefox and Chrome.
 
