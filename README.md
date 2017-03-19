@@ -12,6 +12,7 @@ Google's SPDY protocol become the basis for HTTP2, the next version on HTTP.
 3. Use Existing APIs - That means no need to change the existing application code, changing the protocal will work.
 
 4. Cheaper Requestes
+
     a) Multiplexing and concurrency: Several requests can be sent in rapid succession on the same TCP connection, and responses can be received out of order - eliminating the need for multiple connections between the client and the server [“head-of-line blocking” Solved]
 
     b) Header compression: HTTP header size is drastically reduced
@@ -21,7 +22,9 @@ Google's SPDY protocol become the basis for HTTP2, the next version on HTTP.
     d) Server push: The server can send resources the client has not yet requested
 
 5. Security
+
     a) Not mandates HTTPS, but its good for privacy and user protection.
+    
     b) The new protocol does not support things like SSL renegotiation, SSL compression, or any protocol before TLS 1.2 with weak ciphers. So on that level the protocol makes the web a lot safer.
     
 
