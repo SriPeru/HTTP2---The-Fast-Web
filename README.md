@@ -47,6 +47,7 @@ Google's SPDY protocol become the basis for HTTP2 - the next superfast HTTP Vers
 ## What to do to enable HTTP2?
 
 Implementation Listing - [https://http2.github.io/](https://http2.github.io/)
+
 HTTP2 in detail - [https://kinsta.com/learn/what-is-http2/](https://kinsta.com/learn/what-is-http2/)
 
 1. #### <a href="https://http2.akamai.com/" target="_blank">Akamai</a>: 
