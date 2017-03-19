@@ -7,13 +7,17 @@ Google's SPDY protocol become the basis for HTTP2 - the next superfast HTTP Vers
 
 ## Future of Internet
 
-1. Multiplexing feature that can deliver more HTTP requests at once so H2 can load website/webapps faster than ever.
+1. #### Multiplexing
+    
+    Multiplexing feature that can deliver more HTTP requests at once so H2 can load website/webapps faster than ever.
 
 2. A larger number of requests is no longer a problem - So problems with Spriting, inlining can be avoided.
 
-3. Use Existing APIs - That means no need to change the existing application code, changing the protocal will work.
+3. #### Use Existing APIs
+    
+    That means no need to change the existing application code, changing the protocal will work.
 
-4. Cheaper Requestes
+4. #### Cheaper Requestes
 
     a) Multiplexing and concurrency: Several requests can be sent in rapid succession on the same TCP connection, and responses can be received out of order - eliminating the need for multiple connections between the client and the server [“head-of-line blocking” Solved]
 
@@ -23,11 +27,11 @@ Google's SPDY protocol become the basis for HTTP2 - the next superfast HTTP Vers
 
     d) Server push: The server can send resources the client has not yet requested
 
-5. No More Text, it’s a binary protocol. 
+5. #### No More Text, it’s a binary protocol. 
     
     While binary protocols have lower overhead to parse, as well as a slightly lighter network footprint, the real reason for this big change is that binary protocols are simpler, and therefore less error-prone. So debugging will be an issue(check below).
 
-6. Security
+6. #### Security
 
     a) TLS/HTTPS security by default
 
