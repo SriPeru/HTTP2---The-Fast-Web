@@ -23,9 +23,11 @@ Google's SPDY protocol become the basis for HTTP2, the next version on HTTP.
 
 5. Security
 
-    a) Not mandates HTTPS, but its good for privacy and user protection.
+    a) TLS/HTTPS security by default
 
-    b) The new protocol does not support things like SSL renegotiation, SSL compression, or any protocol before TLS 1.2 with weak ciphers. So on that level the protocol makes the web a lot safer.
+    b) Not mandates HTTPS, but its good for privacy and user protection.
+
+    c) The new protocol does not support things like SSL renegotiation, SSL compression, or any protocol before TLS 1.2 with weak ciphers. So on that level the protocol makes the web a lot safer.
     
     ### Some important links to check for security:
 
@@ -33,6 +35,8 @@ Google's SPDY protocol become the basis for HTTP2, the next version on HTTP.
 
     <a href="https://blog.radware.com/security/2015/09/http2-security-fix/" target="_blank">HTTP/2 Will Break Your Security – Here’s How to Fix it</a>
 
+
+### Check Browser support: http://caniuse.com/#search=http2
 
 ## What to do to enable HTTP2?
 
@@ -51,3 +55,9 @@ Google's SPDY protocol become the basis for HTTP2, the next version on HTTP.
 5. <a href="https://aws.amazon.com/blogs/aws/new-http2-support-for-cloudfront/" target="_blank">HTTP/2 Support for Amazon CloudFront</a>
 
 6. <a href="https://kinsta.com/learn/what-is-http2/" target="_blank">What is HTTP2?</a>
+
+
+#### How do I debug HTTP/2 if it’s encrypted? 
+
+    Use <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/Key_Log_Format" target="_blank">NSS keylogging</a> in combination with the Wireshark plugin (included in recent development releases). This works with both Firefox and Chrome.
+
