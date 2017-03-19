@@ -1,5 +1,7 @@
 # HTTP2 :: The Fast Web
 
+### Expect 50% increased web performance
+
 
 Google's SPDY protocol become the basis for HTTP2 - the next superfast HTTP Version.
 
@@ -21,7 +23,11 @@ Google's SPDY protocol become the basis for HTTP2 - the next superfast HTTP Vers
 
     d) Server push: The server can send resources the client has not yet requested
 
-5. Security
+5. No More Text, it’s a binary protocol. 
+    
+    While binary protocols have lower overhead to parse, as well as a slightly lighter network footprint, the real reason for this big change is that binary protocols are simpler, and therefore less error-prone. So debugging will be an issue(check below).
+
+6. Security
 
     a) TLS/HTTPS security by default
 
@@ -39,6 +45,8 @@ Google's SPDY protocol become the basis for HTTP2 - the next superfast HTTP Vers
 ### Check Browser support: http://caniuse.com/#search=http2
 
 ## What to do to enable HTTP2?
+
+Implementation Listing - (https://http2.github.io/)[https://http2.github.io/]
 
 1. #### <a href="https://http2.akamai.com/" target="_blank">Akamai</a>: 
 
